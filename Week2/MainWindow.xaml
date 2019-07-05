@@ -1,0 +1,20 @@
+﻿<Window x:Class="Week2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Week2"
+        mc:Ignorable="d"
+        Title="Week 2 test app" Height="350" Width="525">
+    <Viewbox>
+        <StackPanel>
+            <Label Name="lblResult" Margin="10" FontSize="24"/>
+            <TextBox Name="tbxFirst" Margin="10" FontSize="24"/>
+            <TextBox Name="tbxSecond" Margin="10" FontSize="24"/>
+            <StackPanel Orientation="Horizontal">
+                <Button Name="btnDoIt" Content="Do It" Margin="20" Width="100" FontSize="24" Click="btnDoIt_Click"/>
+                <Button Name="btnClearIt" Content="Clear It" Margin="20" Width="100" FontSize="24" Click="btnClearIt_Click"/>
+            </StackPanel>
+        </StackPanel>
+    </Viewbox>
+</Window>
